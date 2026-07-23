@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Files
+dist/
+build/
+
+# Coverage Reports
+coverage/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Temporary Files
+tmp/
+temp/
+
+# Test Output
+jest-results.json
+
+# Render / Deployment
+.render/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
